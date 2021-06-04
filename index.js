@@ -5,12 +5,12 @@
 // Dependencies
 const server = require('./lib/server');
 
-// Declare the app
+// Declare app
 const app = {};
 
-// Init function
+// Init app
 app.init = () => {
-  // Start the server
+  // Start server
   server.init();
 };
 
