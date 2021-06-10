@@ -1,35 +1,29 @@
 const menuItems = {
-  flavor: [
-    { type: 'bbq chicken', price: 5 },
-    { type: 'hawaian', price: 3.5 },
-    { type: 'margherita', price: 4.5 },
-    { type: 'meat', price: 5.5 },
-    { type: 'pepperoni', price: 5 },
-    { type: 'supreme', price: 5 },
+  pizzas: [
+    { id: 1, flavor: 'bbq chicken', price: 5 },
+    { id: 2, flavor: 'hawaian', price: 3.5 },
+    { id: 3, flavor: 'margherita', price: 4.5 },
+    { id: 4, flavor: 'meat', price: 5.5 },
+    { id: 5, flavor: 'pepperoni', price: 5 },
+    { id: 6, flavor: 'supreme', price: 5 },
   ],
-  crust: [
-    { type: 'cheese stuffed', price: 1 },
-    { type: 'deep dish', price: 2 },
-    { type: 'neapoliton', price: 1.5 },
-    { type: 'original', price: 0 },
-    { type: 'sicilian style', price: 2 },
-    { type: 'thin', price: 0 },
+  crusts: [
+    { id: 1, flavor: 'cheese stuffed', price: 1 },
+    { id: 2, flavor: 'deep dish', price: 2 },
+    { id: 3, flavor: 'neapoliton', price: 1.5 },
+    { id: 4, flavor: 'original', price: 0 },
+    { id: 5, flavor: 'sicilian style', price: 2 },
+    { id: 6, flavor: 'thin', price: 0 },
   ],
-  toppings: [
-    {
-      cheeses: [
-        { type: 'blue cheese', price: 0.5 },
-        { type: 'mozarella', price: 0.75 },
-        { type: 'parmessan', price: 1 },
-      ],
-      meats: [
-        { type: 'anchovies', price: 0.5 },
-        { type: 'bacon', price: 0.75 },
-        { type: 'turkey', price: 1 },
-        { type: 'ham', price: 1 },
-      ],
-      vegetables: ['olives', 'mushrooms', 'onions', 'garlic'],
-    },
+  meatToppings: [
+    { id: 1, flavor: 'anchovies', price: 0.5 },
+    { id: 2, flavor: 'bacon', price: 0.75 },
+    { id: 3, flavor: 'turkey', price: 1 },
+    { id: 4, flavor: 'ham', price: 1 },
+  ],
+  vegetableToppings: [
+    { id: 1, flavor: 'olives', price: 0 },
+    { id: 2, flavor: 'mushrooms', price: 0 },
   ],
 };
 
